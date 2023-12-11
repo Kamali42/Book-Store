@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --kamali:rgb(0, 110, 184) ;
+    --white:white;
+}
+.Overall{
+    height:100%;
+    width:100%;
+    background-color: var(--kamali);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form{
+    width:500px;
+    line-height: 30px;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input{
+    width:100%;
+    border:2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-size:37px;
+    background-color: white;
+    background-position: 98%;
+    padding: 18px 60px 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+}
+::placeholder{
+    color:var(--kamali);
+    font-weight: bold;
+}
+label{
+    font-size: 20px;
+    padding-left: 10px;
+    /* color:; */
+    font-weight: bold;
+}
+button{
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+    background-color: var(--kamali);
+    color:white;
+    font-size: 26px;
+    padding:10px 30px;
+    width: 100%;
+    border-radius: 4px;
+    transition: border 6s;
+    border:1px solid white;
+    cursor: pointer;
+}
+button:hover{
+    border: 3px solid white;
+}
+.mn{
+    margin-bottom: 20px;
+    background-size:33px;
+}
